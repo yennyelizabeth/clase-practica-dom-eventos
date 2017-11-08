@@ -1,0 +1,34 @@
+/* --------------------------------EJEMPLO C ------------------------------*/
+/* ---------------------------position:relative------------------------------*/
+/* Defino el atributo de despliegue por bloque a los divs */
+
+div {
+  display: block;
+}
+
+/* atributos ( id )
+   propiedad: posición relative permite ser Estática con flujo de documento
+   pero que puede variar sus características de borde, margen, ancho y alto
+  */
+
+#box_1 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+  left: 200px;
+	background: #44accf;
+}
+
+#box_3 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}

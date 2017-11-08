@@ -1,0 +1,50 @@
+/* --------------------------------EJEMPLO E------------------------------*/
+/* ---------------------------position:absolute ------------------------------*/
+/* Defino el atributo de despliegue por bloque a los divs */
+
+div {
+  display: block;
+}
+
+/* atributos
+   se le da la propiedad position absolute, puede aceptar valores top, left,
+   rigth y bottom. Este elemento no estará dentro del flujo normal de la página
+   y tomará como referencia la ventana del navegador o el elemento posicionado
+   que tenga cualquier valor de position excepto static, mas cercano si es padre
+   del elemento que queremos posicionar*/
+
+#box_1 {
+	position: absolute;
+  top: 0;
+  left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+
+#box_4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
